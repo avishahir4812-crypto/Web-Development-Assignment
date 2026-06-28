@@ -1,0 +1,11 @@
+Steps to View the POST Request in DevTools
+Open the HTML file in Google Chrome.
+Press F12 (or Ctrl + Shift + I) to open Developer Tools.
+Click the Network tab.
+Fill in the form:
+Username: Avish
+Rating: 5
+Review: This product is excellent and worth buying.
+Click Submit Review.
+In the Network tab, click the form submission request.
+Open the Payload (or Form Data) section.
