@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+         body{
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .logo-container{
+            display:flex;
+            border: solid 2px #ccc;
+            border-radius: 10px;
+            overflow:hidden;
+            background-color: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            justify-content: space-between 10px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-container"><div>
+        <img src="logo.png" alt="Logo" width="100">
+        <img src="logo.png" alt="Logo" width="100">
+        <img src="logo.png" alt="Logo" width="100">
+        <img src="logo.png" alt="Logo" width="100">
+    </div>
+</body>
+</html>

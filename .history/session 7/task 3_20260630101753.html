@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        background-color: bisque;
+        box-sizing:border-box;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 20px;
+        padding: 10px;
+        background-color: rgb(118, 246, 251);
+    }
+    .grid-item{
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow:0 2px 8px rgba(0,0,0,0.2);
+        padding: 20px;
+        border-radius: 20px;
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+    .grid-item img{
+    width:500px;
+    height:500px;
+    object-fit:contain;
+    margin-bottom:10px;
+}
+</style>
+<body>
+    <section>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="/images/spotify.png" alt="spotify">
+                <h1>Spotify</h1>
+            </div>
+            <div class="grid-item">
+                <img src="/images/facebook.png" alt="facebook">
+                <h1>facebook</h1>
+            </div>
+            <div class="grid-item">
+                <img src="/images/whatsapp.png" alt="whatsapp">
+                <h1>whatsapp</h1>
+            </div>
+            <div class="grid-item">
+                <img src="/images/linkedin.png" alt="linkedin">
+                <h1>linkedin</h1>
+            </div>
+            <div class="grid-item">
+                <img src="/images/instagram.png" alt="instagram">
+                <h1>instagram</h1>
+            </div>
+            <div class="grid-item">
+                <img src="/images/spotify.png" alt="youtube">
+                <h1>spotify</h1>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
