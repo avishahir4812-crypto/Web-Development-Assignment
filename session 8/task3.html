@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Product Card</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f3f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .product-card {
+            width: 700px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 250px;
+            margin-bottom: 20px;
+        }
+
+        .product-card h2 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .product-card p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        @media only screen and (max-width: 1200px) {
+
+            .product-card {
+                padding: 25px;
+            }
+
+            .product-card h2 {
+                font-size: 28px;
+            }
+
+            .product-card p {
+                font-size: 17px;
+            }
+        }
+
+        @media only screen and (max-width: 900px) {
+
+            .product-card {
+                width: 600px;
+                padding: 20px;
+            }
+
+            .product-card h2 {
+                font-size: 24px;
+            }
+
+            .product-card p {
+                font-size: 16px;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+
+            .product-card {
+                width: 100%;
+                padding: 15px;
+            }
+
+            .product-card h2 {
+                font-size: 20px;
+            }
+
+            .product-card p {
+                font-size: 15px;
+            }
+
+            .product-card img {
+                width: 180px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="product-card">
+
+        <img src="/images/iphone15.jpg" alt="Apple iPhone 15">
+
+        <h2>Apple iPhone 15</h2>
+
+        <p>
+            Experience the powerful A16 Bionic chip,
+            Super Retina XDR display, and advanced camera system.
+        </p>
+
+    </div>
+
+</body>
+
+</html>
